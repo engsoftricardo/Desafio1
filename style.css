@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0px;
+  font-family: "inter";
+  box-sizing: border-box;
+}
+
+#menusuperior {
+  background-image: url(imagens/fundo-menusuperior.svg);
+  color: #ffffff;
+  max-width: 1440px;
+  height: 475px;
+}
+
+#titulo-menusuperior {
+  font-family: "Inter";
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: 2.5%;
+  text-align: left;
+  padding-top: 206px;
+  padding-left: 62px;
+}
+
+#texto-menusuperior {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  padding-left: 62px;
+}
+
+.bg-fundo {
+  max-width: 1440px;
+  background-color: #f9f9f9f9;
+  height: 229px;
+}
+
+.menuinformacional {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  gap: 99px;
+  padding-top: 96px;
+  padding-bottom: 66px;
+  padding-left: 171px;
+  padding-right: 66px;
+}
+
+.menuinformacional div {
+  width: max-content;
+}
+
+.apresentacao {
+  display: flex;
+  align-items: center;
+}
+
+.texto {
+  padding-top: 304px;
+  padding-left: 77px;
+}
+
+.titulo-apresentacao {
+  font-family: "Inter";
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.textoapresentacao {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+  padding-left: 77px;
+}
+
+.imagem-apresentacao {
+  width: 510px;
+  height: 605px;
+  padding-top: 82px;
+  padding-left: 64px;
+  border-radius: 30px 0px 0px 0px;
+  padding-bottom: 92px;
+}
+
+.formulario {
+  background-color: #303030;
+  max-width: 1440px;
+  height: 638px;
+}
+
+.texto-formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto-formulario h1 {
+  color: #ffffff;
+  font: "Inter";
+  width: 700;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  padding-top: 87px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 508px;
+  gap: 68px;
+  align-items: center;
+}
+
+.form-input {
+  font-family: "Raleway";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  padding: 23px 30px;
+  background: #ffffff;
+  color: #0000004d;
+  width: 508px;
+  border-radius: 10px;
+  height: 72px;
+}
+
+form button {
+  margin-top: 26px;
+  background-color: #c07212;
+  color: #ffffff;
+  font-family: "Raleway";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  border-radius: 10px;
+  padding: 22px 48px;
+  cursor: pointer;
+}
